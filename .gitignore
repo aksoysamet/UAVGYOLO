@@ -1,0 +1,28 @@
+# Data and trained artifacts are distributed through external download links.
+*.zip
+*.pt
+*.pth
+*.onnx
+*.engine
+/Attsjo_All_dataset*/
+/Attsjo_Core_dataset*/
+/svartberget_dataset*/
+/experiments/
+/extracted_weights/
+/runs/
+
+# Keep numerical tables and method notes; publish curated figures in docs/assets.
+/reviewer_results/cache/
+/reviewer_results/ultralytics_val_runs*/
+/reviewer_results/figures/
+/reviewer_results1/
+
+# Local notebook and Python artifacts.
+**/.ipynb_checkpoints/
+/Untitled*.ipynb
+__pycache__/
+*.py[cod]
+/.venv/
+/.env
+.DS_Store
+Thumbs.db
